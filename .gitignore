@@ -1,0 +1,18 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Downloaded by `make setup`
+soundfonts/
+
+# Generated audio (rebuild from seeds)
+stems/
+export/
+
+# Game-specific code and notes (see local/README.md)
+local/
+
+# Local tool configuration
+.serena/
